@@ -1,4 +1,4 @@
--- Homework #1
+-- CS381 Homework #1
 -- Due: Tues, Jan 23, 10:59pm
 
 -- Team members:

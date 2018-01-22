@@ -1,4 +1,4 @@
--- Homework #1
+-- CS381 Homework #1
 -- Due: Tues, Jan 23, 10:59pm
 
 -- Team members:
@@ -6,7 +6,6 @@
 ---- Qibang Liu (liuqib)
 ---- Donghao Lin (lindo)
 -- 01/21/2018
-
 
 module Tree where
 
