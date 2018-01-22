@@ -32,11 +32,13 @@ t2 :: Tree
 t2 = Node 6 (Node 2 (Leaf 1) (Node 4 (Leaf 3) (Leaf 5)))
             (Node 8 (Leaf 7) (Leaf 9))
 
-t3 :: Tree
-t3 = (Node 6 (Node 2 (Leaf 9) (Node 4 (Leaf 3) (Leaf 5))) (Node 8 (Leaf 7) (Leaf 1)))
+-- | Additional two example binary tree, used in tests.
 
-t4 :: Tree
-t4 = (Node 6 (Node 2 (Leaf 1) (Node 4 (Leaf 3) (Leaf 5))) (Node 8 (Leaf 1) (Leaf 9)))
+-- t3 :: Tree
+-- t3 = (Node 6 (Node 2 (Leaf 9) (Node 4 (Leaf 3) (Leaf 5))) (Node 8 (Leaf 7) (Leaf 1)))-- 
+
+-- t4 :: Tree
+-- t4 = (Node 6 (Node 2 (Leaf 1) (Node 4 (Leaf 3) (Leaf 5))) (Node 8 (Leaf 1) (Leaf 9)))
 
 
 -- | The integer at the left-most node of a binary tree.
