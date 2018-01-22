@@ -188,14 +188,19 @@ inorder (Node i l r) = (inorder l) ++ [i] ++ (inorder r)
 --
 isBST :: Tree -> Bool
 isBST (Leaf i)  = True
-isBST (Node i (Leaf l) (Leaf r))
-    | l > i     = False
-    | r < i     = False
-    | otherwise = True
-isBST (Node i (Node l _ _) (Node r _ _))
-    | l > i     = False
-    | r < i     = False
-    | otherwise = True
+isBST (Node i l r)
+    | rightmost(l) > i = False
+    | leftmost(r)  < i = False
+    | otherwise        = True
+
+--isBST (Node i (Leaf l) (Leaf r))
+--    | l > i     = False
+--    | r < i     = False
+--    | otherwise = True
+--isBST (Node i (Node l _ _) (Node r _ _))
+--    | l > i     = False
+--    | r < i     = False
+--    | otherwise = True
 
 
 -- | Check whether a number is contained in a binary search tree.
