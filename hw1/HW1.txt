@@ -1,0 +1,40 @@
+Homework #1
+Due: Tues, Jan 23, 10:59pm
+
+How to Submit
+Submit one solution per team (each team can have 1–3 members), through TEACH. Put the names and ONID IDs of all team members as a comment at the top of the file.
+
+Your submission should consist of two files named Tree.<your-username>.hs and Nat.<your-username>.hs, where <your-username> is the ONID ID of the team member who submitted the file.
+
+These files must compile without errors in GHCi. Put all non-working parts of your solution in comments! If your file does not compile, the TA will not evaluate it.
+
+Please preserve the existing doctest comments in the template (the lines starting with >>> and the results underneath). This will help the TA during grading.
+
+If you can’t solve a problem, you can get partial credit by describing in comments what you tried and where you got stuck.
+
+Late submissions will not be accepted. Do not send solutions by email.
+
+Description
+The goals of this assignment are to help you learn the basics of programming in Haskell: data types, functions, pattern matching, and recursion.
+
+The assignment consists of two parts. For each part, you should download the corresponding template, rename it, and add your definitions directly to the file.
+
+For each undefined function in the templates, you should:
+
+Write the appropriate type of the function.
+Implement the function.
+The preceding comment for each function describes a brief English description of what the function should do. Additionally, each comment contains doctest examples that illustrate the intended behavior of the function. You can use these examples as unit tests using the doctest tool demonstrated in class. Feel free to add more examples to improve your test coverage.
+
+Instructions for installing doctest are on the course web page.
+
+Part 1: Binary Trees
+Template: Tree.template.hs
+
+In the first part of the assignment, you will define several functions for querying, generating, and manipulating binary trees of integers. Some of the problems will also require knowing about binary search trees.
+
+Part 2: Natural Numbers
+Template: Nat.template.hs
+
+In the second part of the assignment, you will define several functions for manipulating a simple unary representation of natural numbers.
+
+Note: For the purposes of this assignment, you should implement the required mathematical operations by pattern matching on and manipulating the unary representation directly. That is, you should not implement them by first converting the arguments to integers, doing the mathematical operation on integers, and then converting back to the unary representation.
