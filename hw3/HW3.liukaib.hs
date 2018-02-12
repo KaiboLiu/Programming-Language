@@ -143,15 +143,15 @@ applyCmds (c:cmds) (state, lines) = case line of
 --
 --
 amazing :: Prog
-amazing = --liftPen(2,1) ++ [Move 2 7] ++ liftPen(5,1) ++ [Move 2 4, Move 5 7] ++   -- K
---          liftPen(6,1) ++ [Move 6 4, Move 8 7, Move 9 4, Move 9 1] ++ liftPen(6,4) ++ [Move 9 4] ++       -- A
---          liftPen(10,1) ++ [Move 12 1] ++ liftPen(10,7) ++ [Move 12 7] ++liftPen(11,1) ++ [Move 11 7] ++ -- I
---          liftPen(13,1) ++ [Move 13 7, Move 16 7, Move 16 6, Move 15 5, Move 13 5, Move 13 4, Move 15 4, Move 16 3, Move 16 1, Move 13 1] ++ -- B
---          liftPen(17,2) ++ [Move 17 6, Move 18 7, Move 19 7, Move 20 6, Move 20 2, Move 19 1, Move 18 1, Move 17 2]++  -- O
---          liftPen(23,7) ++ [Move 23 1, Move 26 1] ++       -- L
---          liftPen(27,1) ++ [Move 29 1] ++ liftPen(27,7) ++ [Move 29 7] ++liftPen(28,1) ++ [Move 28 7] ++ -- I
---          liftPen(30,7) ++ 
---          [Move 30 1, Move 32 1, Move 33 2, Move 33 1, Move 33 7] ++      -- U
+amazing = liftPen(2,1) ++ [Move 2 7] ++ liftPen(5,1) ++ [Move 2 4, Move 5 7] ++   -- K
+          liftPen(6,1) ++ [Move 6 4, Move 8 7, Move 9 4, Move 9 1] ++ liftPen(6,4) ++ [Move 9 4] ++       -- A
+          liftPen(10,1) ++ [Move 12 1] ++ liftPen(10,7) ++ [Move 12 7] ++liftPen(11,1) ++ [Move 11 7] ++ -- I
+          liftPen(13,1) ++ [Move 13 7, Move 16 7, Move 16 6, Move 15 5, Move 13 5, Move 13 4, Move 15 4, Move 16 3, Move 16 1, Move 13 1] ++ -- B
+          liftPen(17,2) ++ [Move 17 6, Move 18 7, Move 19 7, Move 20 6, Move 20 2, Move 19 1, Move 18 1, Move 17 2]++  -- O
+          liftPen(23,7) ++ [Move 23 1, Move 26 1] ++       -- L
+          liftPen(27,1) ++ [Move 29 1] ++ liftPen(27,7) ++ [Move 29 7] ++liftPen(28,1) ++ [Move 28 7] ++ -- I
+          liftPen(30,7) ++ 
+          [Move 30 1, Move 32 1, Move 33 2, Move 33 1, Move 33 7] ++      -- U
           -- OR map
           liftPen (10, 30)++
           [Move 11 30, Move 12 30, Move 13 30, Move 14 31, Move 14 30, Move 15 30, Move 16 30, Move 17 30, Move 17 31, Move 18 31, Move 18 30, Move 19 31, Move 20 31, Move 21 31, Move 21 32, Move 22 32, Move 23 32, Move 24 32, Move 28 32, Move 30 32, Move 31 32, Move 32 32, Move 33 32, Move 33 31, Move 34 31, Move 34 30, Move 34 29, Move 34 28, Move 33 28, Move 33 27, Move 33 26, Move 32 25, Move 32 24, Move 31 24, Move 31 23, Move 31 22, Move 32 22, Move 33 22, Move 33 21, Move 32 21, Move 32 20, Move 32 19, Move 32 9, Move 31 9, Move 30 9, Move 27 9, Move 26 9, Move 25 9, Move 24 9, Move 23 9, Move 22 9, Move 21 9, Move 20 9, Move 19 9, Move 17 9, Move 16 9, Move 15 9, Move 14 9, Move 12 9, Move 11 9, Move 10 9, Move 9  9, Move 8  9, Move 7  9, Move 6  9, Move 5  9, Move 4  9, Move 3  9, Move 2  9, Move 2  10, Move 2  11, Move 2  12, Move 1  12, Move 2  12, Move 2  13, Move 1  13, Move 1  14, Move 1  15, Move 2  15, Move 2  16, Move 2  17, Move 2  18, Move 3  19, Move 3  20, Move 3  21, Move 3  22, Move 3  23, Move 3  24, Move 3  25, Move 3  26, Move 3  27, Move 3  28, Move 3  29, Move 4  29, Move 3  29, Move 4  30, Move 4  31, Move 3  31, Move 4  31, Move 3  31, Move 3  32, Move 4  32, Move 4  33, Move 3  33, Move 3  34, Move 4  34, Move 4  33, Move 4  34, Move 5  34, Move 6  34, Move 6  33, Move 7  33, Move 8  33, Move 8  32, Move 9  32, Move 8  32, Move 9  31, Move 9  30, Move 10 30] ++
