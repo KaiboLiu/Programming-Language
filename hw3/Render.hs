@@ -17,7 +17,7 @@ type Line = (Point,Point)
 
 -- | Output a list of lines as an HTML5 file containing an SVG image.
 toHTML :: [Line] -> IO ()
-toHTML ls = writeFile "MiniMiniLogo.html" (header ++ content ls ++ footer)
+toHTML ls = writeFile "MiniMiniLogo.liukaib.html" (header ++ content ls ++ footer)
 
 
 
@@ -32,7 +32,7 @@ margin = 10
 width  = 800
 height = 400
 
-style = "fill:white;stroke:red;stroke-width:2"
+style = "fill:white;stroke:#DC4405;stroke-width:2"
 
 title  = "<head><title>MiniLogo Semantics Viewer</title></head>"
 view   = "<svg width='100%' viewBox='0 0 "
