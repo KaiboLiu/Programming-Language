@@ -152,19 +152,21 @@ amazing = --liftPen(2,1) ++ [Move 2 7] ++ liftPen(5,1) ++ [Move 2 4, Move 5 7] +
 --          liftPen(27,1) ++ [Move 29 1] ++ liftPen(27,7) ++ [Move 29 7] ++liftPen(28,1) ++ [Move 28 7] ++ -- I
 --          liftPen(30,7) ++ 
 --          [Move 30 1, Move 32 1, Move 33 2, Move 33 1, Move 33 7] ++      -- U
-
+          -- OR map
           liftPen (10, 30)++
           [Move 11 30, Move 12 30, Move 13 30, Move 14 31, Move 14 30, Move 15 30, Move 16 30, Move 17 30, Move 17 31, Move 18 31, Move 18 30, Move 19 31, Move 20 31, Move 21 31, Move 21 32, Move 22 32, Move 23 32, Move 24 32, Move 28 32, Move 30 32, Move 31 32, Move 32 32, Move 33 32, Move 33 31, Move 34 31, Move 34 30, Move 34 29, Move 34 28, Move 33 28, Move 33 27, Move 33 26, Move 32 25, Move 32 24, Move 31 24, Move 31 23, Move 31 22, Move 32 22, Move 33 22, Move 33 21, Move 32 21, Move 32 20, Move 32 19, Move 32 9, Move 31 9, Move 30 9, Move 27 9, Move 26 9, Move 25 9, Move 24 9, Move 23 9, Move 22 9, Move 21 9, Move 20 9, Move 19 9, Move 17 9, Move 16 9, Move 15 9, Move 14 9, Move 12 9, Move 11 9, Move 10 9, Move 9  9, Move 8  9, Move 7  9, Move 6  9, Move 5  9, Move 4  9, Move 3  9, Move 2  9, Move 2  10, Move 2  11, Move 2  12, Move 1  12, Move 2  12, Move 2  13, Move 1  13, Move 1  14, Move 1  15, Move 2  15, Move 2  16, Move 2  17, Move 2  18, Move 3  19, Move 3  20, Move 3  21, Move 3  22, Move 3  23, Move 3  24, Move 3  25, Move 3  26, Move 3  27, Move 3  28, Move 3  29, Move 4  29, Move 3  29, Move 4  30, Move 4  31, Move 3  31, Move 4  31, Move 3  31, Move 3  32, Move 4  32, Move 4  33, Move 3  33, Move 3  34, Move 4  34, Move 4  33, Move 4  34, Move 5  34, Move 6  34, Move 6  33, Move 7  33, Move 8  33, Move 8  32, Move 9  32, Move 8  32, Move 9  31, Move 9  30, Move 10 30] ++
+          -- OSU logo
           liftPen(52, 34) ++
           [Move 48 34, Move 44 33, Move 41 31, Move 41 11, Move 44 9, Move 48 8, Move 52 8, Move 53 8, Move 55 8, Move 56 9, Move 58 9, Move 60 10, Move 61 10, Move 63 11, Move 63 11, Move 57 13, Move 55 13, Move 53 13, Move 52 13, Move 50 13, Move 47 13, Move 46 14, Move 45 14, Move 45 28, Move 46 28, Move 47 29, Move 50 30, Move 52 30, Move 54 30, Move 56 29, Move 58 28, Move 58 20, Move 58 20, Move 62 19, Move 63 19, Move 63 31, Move 60 33, Move 56 34, Move 52 34]++
           liftPen(64, 28) ++
           [Move 64 23, Move 66 23, Move 68 23, Move 69 22, Move 69 20, Move 74 20, Move 74 25, Move 71 26, Move 67 28, Move 64 28]++
           liftPen(57, 27) ++
           [Move 55 26, Move 54 26, Move 52 25, Move 52 16, Move 53 16, Move 70 10, Move 70 7, Move 69 7, Move 67 6, Move 65 5, Move 63 5, Move 61 5, Move 59 6, Move 57 7, Move 57 8, Move 56 7, Move 54 7, Move 52 7, Move 52 4, Move 56 2, Move 59 1, Move 63 1, Move 67 1, Move 71 2, Move 74 4, Move 74 14, Move 74 14, Move 57 19, Move 57 27] ++
-
+          -- OR charecter
           liftPen(11,16) ++ [Move 11 22, Move 12 23, Move 15 23, Move 16 22, Move 16 16, Move 15 15, Move 12 15, Move 11 16] ++ -- O
           liftPen(19,15) ++ [Move 19 23, Move 23 23, Move 24 22, Move 24 21, Move 23 20, Move 19 20, Move 24 15]   -- R 
 
+          
 --          liftPen (30,1) ++
 --          [Move 32 8, Move 32 9, Move 32 10, Move 32 10, Move 32 10, Move 31 10, Move 31 11, Move 32 11, Move 32 12, Move 33 13, Move 33 13, Move 33 14, Move 34 15, Move 35 16] ++
 --          [Move 35 16, Move 34 17, Move 34 18, Move 31 18, Move 28 19, Move 25 19, Move 25 19, Move 24 19, Move 23 19, Move 23 19, Move 22 19, Move 21 19, Move 21 20, Move 20 20, Move 20 20, Move 19 20, Move 19 20, Move 17 20, Move 16 21, Move 16 21, Move 16 22, Move 16 23, Move 15 23, Move 15 24, Move 15 24, Move 13 24, Move 13 22, Move 12 20, Move 12 19, Move 11 16, Move 9  13, Move 8  11, Move 7  10, Move 7  9, Move 7  6, Move 30 1, Move 30 1] ++          
