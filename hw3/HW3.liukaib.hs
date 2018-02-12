@@ -162,11 +162,11 @@ amazing = --liftPen(2,1) ++ [Move 2 7] ++ liftPen(5,1) ++ [Move 2 4, Move 5 7] +
           [Move 64 23, Move 66 23, Move 68 23, Move 69 22, Move 69 20, Move 74 20, Move 74 25, Move 71 26, Move 67 28, Move 64 28]++
           liftPen(57, 27) ++
           [Move 55 26, Move 54 26, Move 52 25, Move 52 16, Move 53 16, Move 70 10, Move 70 7, Move 69 7, Move 67 6, Move 65 5, Move 63 5, Move 61 5, Move 59 6, Move 57 7, Move 57 8, Move 56 7, Move 54 7, Move 52 7, Move 52 4, Move 56 2, Move 59 1, Move 63 1, Move 67 1, Move 71 2, Move 74 4, Move 74 14, Move 74 14, Move 57 19, Move 57 27] ++
-          -- OR charecter
+          -- OR character
           liftPen(11,16) ++ [Move 11 22, Move 12 23, Move 15 23, Move 16 22, Move 16 16, Move 15 15, Move 12 15, Move 11 16] ++ -- O
           liftPen(19,15) ++ [Move 19 23, Move 23 23, Move 24 22, Move 24 21, Move 23 20, Move 19 20, Move 24 15]   -- R 
 
-          
+
 --          liftPen (30,1) ++
 --          [Move 32 8, Move 32 9, Move 32 10, Move 32 10, Move 32 10, Move 31 10, Move 31 11, Move 32 11, Move 32 12, Move 33 13, Move 33 13, Move 33 14, Move 34 15, Move 35 16] ++
 --          [Move 35 16, Move 34 17, Move 34 18, Move 31 18, Move 28 19, Move 25 19, Move 25 19, Move 24 19, Move 23 19, Move 23 19, Move 22 19, Move 21 19, Move 21 20, Move 20 20, Move 20 20, Move 19 20, Move 19 20, Move 17 20, Move 16 21, Move 16 21, Move 16 22, Move 16 23, Move 15 23, Move 15 24, Move 15 24, Move 13 24, Move 13 22, Move 12 20, Move 12 19, Move 11 16, Move 9  13, Move 8  11, Move 7  10, Move 7  9, Move 7  6, Move 30 1, Move 30 1] ++          
