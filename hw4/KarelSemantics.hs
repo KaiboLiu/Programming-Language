@@ -15,6 +15,7 @@ import KarelSyntax
 import KarelState
 
 
+
 -- | Valuation function for Test.
 --
 -- >>> test (Facing North) (\x -> Nothing) ((1, 1), North, 0)
