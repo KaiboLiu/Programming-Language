@@ -1,4 +1,4 @@
--- Homework #2
+-- Homework #3
 -- Due: Wed, Feb 13, 10:59pm
 
 -- Team members:
